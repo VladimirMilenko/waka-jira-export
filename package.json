@@ -1,0 +1,23 @@
+{
+  "name": "waka-exporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "export": "API_KEY=<YOUR_KEY_HERE> node index.js"
+  },
+  "author": "Vladimir Milenko",
+  "license": "ISC",
+  "dependencies": {
+    "@3846masa/axios-cookiejar-support": "^0.3.5",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "localstorage-ponyfill": "^1.0.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "named-regexp": "^0.1.1",
+    "prompts": "^0.1.14",
+    "querystring": "^0.2.0"
+  }
+}
